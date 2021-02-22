@@ -50,3 +50,8 @@ Enum10=Carpalx Keyboard
 
 [DescriptionFile]
 LocaleDomain=fcitx-chewing
+
+[Chewing/AutoLearn]
+Type=Boolean
+Description=Auto Learn user phrase
+DefaultValue=True

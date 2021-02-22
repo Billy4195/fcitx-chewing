@@ -49,6 +49,7 @@ typedef struct _FcitxChewingConfig {
     boolean bChoiceBackward;
     boolean bAutoShiftCursor;
     boolean bSpaceAsSelection;
+    boolean bAutoLearn;
     int layout;
     int selkey;
 } FcitxChewingConfig;

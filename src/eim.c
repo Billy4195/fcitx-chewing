@@ -560,5 +560,6 @@ void ConfigChewing(FcitxChewing* chewing)
     chewing_set_phraseChoiceRearward( ctx, chewing->config.bChoiceBackward ? 1 : 0 );
     chewing_set_autoShiftCur( ctx, chewing->config.bAutoShiftCursor ? 1 : 0 );
     chewing_set_spaceAsSelection( ctx, chewing->config.bSpaceAsSelection ? 1 : 0 );
+    chewing_set_autoLearn( ctx, chewing->config.bAutoLearn ? 0 : 1);
     chewing_set_escCleanAllBuf( ctx, 1 );
 }
